@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DTSethKit-New.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>DTSethKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>DTSethKitFrameWork.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>DTSethKitLib.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5D6E0FD71E63D2A800D506A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D6E1B7A1E6AAADA00D506A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D6E1B881E6AAB0B00D506A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DE0772F1EC1FDCA00B9BEEA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
