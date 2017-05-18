@@ -2,7 +2,7 @@
 
 
 
-// 1.
+// 1.最终的结论就是，除非开发者能保证访问锁的线程全部都处于同一优先级，否则 iOS 系统中所有类型的自旋锁都不能再使用了。
 
 //NSMethodSignature *sig = [delegate_ methodSignatureForSelector:sel];
 //NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:sig];

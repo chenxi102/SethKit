@@ -25,13 +25,14 @@
 		5DE077361EC1FDCA00B9BEEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E0FDF1E63D2A800D506A7 /* AppDelegate.m */; };
 		5DE077371EC1FDCA00B9BEEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E0FDC1E63D2A800D506A7 /* main.m */; };
 		5DE077391EC1FDCA00B9BEEA /* DTSethKitFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6E1B891E6AAB0B00D506A7 /* DTSethKitFrameWork.framework */; };
-		5DE0773A1EC1FDCA00B9BEEA /* libPods-DTSethKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DED90145C7F9C558278C580 /* libPods-DTSethKit.a */; };
 		5DE0773C1EC1FDCA00B9BEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE91E63D2A800D506A7 /* LaunchScreen.storyboard */; };
 		5DE0773D1EC1FDCA00B9BEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE71E63D2A800D506A7 /* Assets.xcassets */; };
 		5DE0773E1EC1FDCA00B9BEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE41E63D2A800D506A7 /* Main.storyboard */; };
 		5DE077401EC1FDCA00B9BEEA /* DTSethKitFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6E1B891E6AAB0B00D506A7 /* DTSethKitFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5DE07ED61ECDA3DA00B9BEEA /* SethMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE07ED51ECDA3DA00B9BEEA /* SethMethodManager.m */; };
 		D5F4C2A434D22E38ED37F3FE /* libPods-DTSethKitLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB282B108AE895C839F8F13 /* libPods-DTSethKitLib.a */; };
 		E43B6EACF90DCE9098E4DDDC /* libPods-DTSethKitFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10312ECF9195DF3563538D7E /* libPods-DTSethKitFrameWork.a */; };
+		E5487D5A393A5B8EE5BAB78F /* libPods-DTSethKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DED90145C7F9C558278C580 /* libPods-DTSethKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,11 +115,15 @@
 		5D6E1B8C1E6AAB0B00D506A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DE077461EC1FDCA00B9BEEA /* DTSethKit-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DTSethKit-New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE0774C1EC2E1B700B9BEEA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		5DE07EC61ECBE4F400B9BEEA /* LearnRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnRuntime.h; sourceTree = "<group>"; };
+		5DE07ED41ECDA3DA00B9BEEA /* SethMethodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SethMethodManager.h; sourceTree = "<group>"; };
+		5DE07ED51ECDA3DA00B9BEEA /* SethMethodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SethMethodManager.m; sourceTree = "<group>"; };
 		65529E530696752B94B3E018 /* Pods-DTSethKitFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSethKitFrameWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTSethKitFrameWork/Pods-DTSethKitFrameWork.release.xcconfig"; sourceTree = "<group>"; };
 		7BB282B108AE895C839F8F13 /* libPods-DTSethKitLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTSethKitLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DED90145C7F9C558278C580 /* libPods-DTSethKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTSethKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E22368F6A136C66D3F8AC7 /* Pods-DTSethKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSethKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTSethKit/Pods-DTSethKit.release.xcconfig"; sourceTree = "<group>"; };
 		E80558A3D31FE512F895D2A7 /* Pods-DTSethKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSethKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTSethKit/Pods-DTSethKit.debug.xcconfig"; sourceTree = "<group>"; };
+		E9F8A06F98F2CE42F81B38E0 /* libPods-DTSethKit-New.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTSethKit-New.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA456857436C7F497304FC9B /* Pods-DTSethKitLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSethKitLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTSethKitLib/Pods-DTSethKitLib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +134,7 @@
 			files = (
 				5D6E1B901E6AAB0B00D506A7 /* DTSethKitFrameWork.framework in Frameworks */,
 				1B76087471922C3BD75C842F /* libPods-DTSethKit.a in Frameworks */,
+				E5487D5A393A5B8EE5BAB78F /* libPods-DTSethKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +159,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE077391EC1FDCA00B9BEEA /* DTSethKitFrameWork.framework in Frameworks */,
-				5DE0773A1EC1FDCA00B9BEEA /* libPods-DTSethKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +184,7 @@
 				7DED90145C7F9C558278C580 /* libPods-DTSethKit.a */,
 				10312ECF9195DF3563538D7E /* libPods-DTSethKitFrameWork.a */,
 				7BB282B108AE895C839F8F13 /* libPods-DTSethKitLib.a */,
+				E9F8A06F98F2CE42F81B38E0 /* libPods-DTSethKit-New.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,10 +225,10 @@
 		5D6E0FCF1E63D2A800D506A7 = {
 			isa = PBXGroup;
 			children = (
+				5D6E1B7C1E6AAADA00D506A7 /* DTSethKitLib */,
 				5DE077491EC2010400B9BEEA /* DTSethKit-Common */,
 				5DE077481EC2006200B9BEEA /* DTSethKit-New */,
 				5D6E0FDA1E63D2A800D506A7 /* DTSethKit */,
-				5D6E1B7C1E6AAADA00D506A7 /* DTSethKitLib */,
 				5D6E1B8A1E6AAB0B00D506A7 /* DTSethKitFrameWork */,
 				5D6E0FD91E63D2A800D506A7 /* Products */,
 				07321F5D7E96D74CAF552193 /* Pods */,
@@ -301,6 +307,9 @@
 			isa = PBXGroup;
 			children = (
 				5DE0774C1EC2E1B700B9BEEA /* MyPlayground.playground */,
+				5DE07EC61ECBE4F400B9BEEA /* LearnRuntime.h */,
+				5DE07ED41ECDA3DA00B9BEEA /* SethMethodManager.h */,
+				5DE07ED51ECDA3DA00B9BEEA /* SethMethodManager.m */,
 			);
 			path = AOP;
 			sourceTree = "<group>";
@@ -398,13 +407,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DE077431EC1FDCA00B9BEEA /* Build configuration list for PBXNativeTarget "DTSethKit-New" */;
 			buildPhases = (
-				5DE077321EC1FDCA00B9BEEA /* [CP] Check Pods Manifest.lock */,
 				5DE077331EC1FDCA00B9BEEA /* Sources */,
 				5DE077381EC1FDCA00B9BEEA /* Frameworks */,
 				5DE0773B1EC1FDCA00B9BEEA /* Resources */,
 				5DE0773F1EC1FDCA00B9BEEA /* Embed Frameworks */,
-				5DE077411EC1FDCA00B9BEEA /* [CP] Embed Pods Frameworks */,
-				5DE077421EC1FDCA00B9BEEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -512,51 +518,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTSethKitFrameWork/Pods-DTSethKitFrameWork-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5DE077321EC1FDCA00B9BEEA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5DE077411EC1FDCA00B9BEEA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTSethKit/Pods-DTSethKit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5DE077421EC1FDCA00B9BEEA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTSethKit/Pods-DTSethKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		616C69F8A910A64774126DD5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -657,6 +618,7 @@
 				5D3FBED61E81090B00350CF2 /* ChainSyntaxSample.m in Sources */,
 				5D6E0FE31E63D2A800D506A7 /* ViewController.m in Sources */,
 				5D6E0FE01E63D2A800D506A7 /* AppDelegate.m in Sources */,
+				5DE07ED61ECDA3DA00B9BEEA /* SethMethodManager.m in Sources */,
 				5D6E0FDD1E63D2A800D506A7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -918,7 +880,6 @@
 		};
 		5DE077441EC1FDCA00B9BEEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E80558A3D31FE512F895D2A7 /* Pods-DTSethKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
@@ -934,7 +895,6 @@
 		};
 		5DE077451EC1FDCA00B9BEEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1E22368F6A136C66D3F8AC7 /* Pods-DTSethKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
