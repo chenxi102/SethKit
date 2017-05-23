@@ -30,6 +30,7 @@
 		5DE0773E1EC1FDCA00B9BEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE41E63D2A800D506A7 /* Main.storyboard */; };
 		5DE077401EC1FDCA00B9BEEA /* DTSethKitFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6E1B891E6AAB0B00D506A7 /* DTSethKitFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5DE07ED61ECDA3DA00B9BEEA /* SethMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE07ED51ECDA3DA00B9BEEA /* SethMethodManager.m */; };
+		5DE07EE91ED2E6E700B9BEEA /* DispatchGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE07EE81ED2E6E600B9BEEA /* DispatchGCD.m */; };
 		D5F4C2A434D22E38ED37F3FE /* libPods-DTSethKitLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB282B108AE895C839F8F13 /* libPods-DTSethKitLib.a */; };
 		E43B6EACF90DCE9098E4DDDC /* libPods-DTSethKitFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10312ECF9195DF3563538D7E /* libPods-DTSethKitFrameWork.a */; };
 		E5487D5A393A5B8EE5BAB78F /* libPods-DTSethKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DED90145C7F9C558278C580 /* libPods-DTSethKit.a */; };
@@ -118,6 +119,8 @@
 		5DE07EC61ECBE4F400B9BEEA /* LearnRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnRuntime.h; sourceTree = "<group>"; };
 		5DE07ED41ECDA3DA00B9BEEA /* SethMethodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SethMethodManager.h; sourceTree = "<group>"; };
 		5DE07ED51ECDA3DA00B9BEEA /* SethMethodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SethMethodManager.m; sourceTree = "<group>"; };
+		5DE07EE71ED2E6E600B9BEEA /* DispatchGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchGCD.h; sourceTree = "<group>"; };
+		5DE07EE81ED2E6E600B9BEEA /* DispatchGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchGCD.m; sourceTree = "<group>"; };
 		65529E530696752B94B3E018 /* Pods-DTSethKitFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSethKitFrameWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTSethKitFrameWork/Pods-DTSethKitFrameWork.release.xcconfig"; sourceTree = "<group>"; };
 		7BB282B108AE895C839F8F13 /* libPods-DTSethKitLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTSethKitLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DED90145C7F9C558278C580 /* libPods-DTSethKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTSethKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,6 +202,7 @@
 		5D3FBED01E80FEEA00350CF2 /* Learn */ = {
 			isa = PBXGroup;
 			children = (
+				5DE07EE61ED2E6CE00B9BEEA /* GCD */,
 				5D3FBED81E8109F400350CF2 /* chainsytax */,
 				5D3FBED11E80FEF500350CF2 /* Swift.playground */,
 				5D3FBED21E80FF6800350CF2 /* Learn.h */,
@@ -326,6 +330,15 @@
 			children = (
 			);
 			path = "DTSethKit-Common";
+			sourceTree = "<group>";
+		};
+		5DE07EE61ED2E6CE00B9BEEA /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				5DE07EE71ED2E6E600B9BEEA /* DispatchGCD.h */,
+				5DE07EE81ED2E6E600B9BEEA /* DispatchGCD.m */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -617,6 +630,7 @@
 			files = (
 				5D3FBED61E81090B00350CF2 /* ChainSyntaxSample.m in Sources */,
 				5D6E0FE31E63D2A800D506A7 /* ViewController.m in Sources */,
+				5DE07EE91ED2E6E700B9BEEA /* DispatchGCD.m in Sources */,
 				5D6E0FE01E63D2A800D506A7 /* AppDelegate.m in Sources */,
 				5DE07ED61ECDA3DA00B9BEEA /* SethMethodManager.m in Sources */,
 				5D6E0FDD1E63D2A800D506A7 /* main.m in Sources */,

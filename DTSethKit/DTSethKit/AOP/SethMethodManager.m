@@ -23,12 +23,37 @@
 
 @implementation SethMethodManager
 
-- (void)msgsend {
-
-    
++ (instancetype)shareInstance
+{
+    static SethMethodManager * objc;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        if (!objc) {
+            objc = [SethMethodManager new];
+        }
+    });
+    return objc;
 }
 
+- (void)swizzleAClass:(Class )aCls
+              Amethod:(SEL)asel
+               BClass:(Class )bCls
+              Bmethod:(SEL)bsel
+{
+    Method a = class_getInstanceMethod(aCls, asel);
+    Method b = class_getInstanceMethod(bCls, bsel);
+    method_exchangeImplementations(a, b);
+}
 
+- (void)hookClass:(Class )cls
+           method:(SEL)sel
+        withBlock:(void(^)())block
+{
+    Method methoda = class_getInstanceMethod(cls, sel);
+    IMP impA = imp_implementationWithBlock(block);
+    Method methodb = (__bridge Method)(imp_getBlock(impA));
+    method_exchangeImplementations(methoda, methodb);
+}
 
 @end
 
@@ -36,9 +61,10 @@
 
 
 
-static void sethAspect_performLocked(dispatch_block_t block) {
-    static OSSpinLock sethAspect_lock = OS_SPINLOCK_INIT;
-    OSSpinLockLock(&sethAspect_lock);
+static void SethSpect_performLocked(dispatch_block_t block) {
+    static OSSpinLock aspect_lock = OS_SPINLOCK_INIT;
+    OSSpinLockLock(&aspect_lock);
     block();
-    OSSpinLockUnlock(&sethAspect_lock);
+    OSSpinLockUnlock(&aspect_lock);
 }
+

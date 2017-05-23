@@ -10,4 +10,14 @@
 
 @interface SethMethodManager : NSObject
 
++ (instancetype)shareInstance;
+
+- (void)swizzleAClass:(Class )aCls
+              Amethod:(SEL)asel
+               BClass:(Class )bCls
+              Bmethod:(SEL)bsel;
+
+- (void)hookClass:(Class )cls
+           method:(SEL)sel
+        withBlock:(void(^)())block;
 @end
