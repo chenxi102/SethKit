@@ -66,5 +66,10 @@ static void SethSpect_performLocked(dispatch_block_t block) {
     OSSpinLockLock(&aspect_lock);
     block();
     OSSpinLockUnlock(&aspect_lock);
+    
+    // 自旋锁
+    // 递归锁
+    
+    
 }
 

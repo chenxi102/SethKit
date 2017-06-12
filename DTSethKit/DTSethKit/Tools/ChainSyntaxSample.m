@@ -42,6 +42,11 @@
     return self;
 };
 
+
+
+// TODO: method ...
+
+
 - (fuckOffVoid)one{
     WeakSelf
     return ^(NSString *param1, NSString *param2){
@@ -75,6 +80,18 @@
     dispatch_async(self.dispatch_queue_serail, ^{
         self.start.one(@"log 1", @"log 2").two(@"log 3");
     });
+}
+
+
+
+- (fuckOffid)then {
+    
+    WeakSelf
+    return ^(id block) {
+    StrongSelf
+        
+        return self;
+    };
 }
 
 - (void)dealloc {

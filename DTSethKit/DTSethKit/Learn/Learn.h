@@ -33,5 +33,6 @@ cocoapod：
     2. pod spec lint 检验
     3.pod spec lint --verbose --no-clean
 
-
+6.  弱类型： OC
+    强类型： 
 

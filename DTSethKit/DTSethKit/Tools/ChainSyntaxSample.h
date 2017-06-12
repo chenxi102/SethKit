@@ -14,6 +14,9 @@
 typedef ChainSyntaxSample*(^fuckOffVoid)();
 typedef ChainSyntaxSample*(^fuckOffNsstring)(NSString * fuck);
 
+
+typedef ChainSyntaxSample*(^fuckOffid)(id);
+
 @interface ChainSyntaxSample : NSObject
 
 - (fuckOffVoid)one;

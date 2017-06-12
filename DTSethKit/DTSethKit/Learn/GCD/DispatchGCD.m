@@ -25,7 +25,7 @@
 
 - (void)dispatch_RepeatTimer:(NSTimeInterval)time Res:(dispatch_block_t)block
 {
-    
+    // timer 不能用局部的变量，必须用全局的
     dispatch_source_set_timer(self.timer, DISPATCH_TIME_NOW, time * NSEC_PER_SEC, 0 * NSEC_PER_SEC);
     dispatch_source_set_event_handler(self.timer, block);
     dispatch_resume(self.timer);
