@@ -20,8 +20,12 @@
 
 @implementation ChainSyntaxSample
 
-- (void)waitForRes {
-    dispatch_semaphore_wait(self.dispatch_semaphore_sigal, dispatch_time(DISPATCH_TIME_NOW, (int64_t)(semaphore_outTime * NSEC_PER_SEC)));
+- (void)waitForRes
+{
+   long timeOut =  dispatch_semaphore_wait(self.dispatch_semaphore_sigal, dispatch_time(DISPATCH_TIME_NOW, (int64_t)(semaphore_outTime * NSEC_PER_SEC)));
+    if (timeOut > 0 ) {
+        NSLog(@"等待超时");
+    }
 }
 
 - (void)noWaitjustContinue {
@@ -45,7 +49,6 @@
 
 
 // TODO: method ...
-
 
 - (fuckOffVoid)one{
     WeakSelf

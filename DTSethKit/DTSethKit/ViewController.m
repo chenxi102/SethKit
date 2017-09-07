@@ -14,6 +14,9 @@
 
 @interface ViewController ()
 @property(nonatomic, strong) DispatchGCD * gcd;
+@property (weak, nonatomic) IBOutlet UIButton *autoCaptureBtn;
+@property (weak, nonatomic) IBOutlet UIButton *autoRecordBtn;
+
 @end
 
 @implementation ViewController
@@ -21,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-     /*
+    
      //TODO: Chain Syntax Sample
      ChainSyntaxSample *  sample = [ChainSyntaxSample new];
      DeveloperMode(
@@ -35,37 +38,56 @@
      
      );
      [sample test];
-     */
-    
-    /*
-    //TODO: GCD
-    _gcd = [DispatchGCD new];
-    [_gcd dispatch_RepeatTimer:1 Res:^{
-        NSLog(@"repeat???");
-        [_gcd invalidate];
-    }];
-    //    [gcd GCDtimer];
-    //    [gcd barriesAndGroups];
-    */
-    
+//     */
     
     
     //TODO: GCD
-    [[SethMethodManager shareInstance] hookClass:[UIViewController class] method:@selector(viewWillAppear:) withBlock:^{
-        NSLog(@"viewController will appear ...");
-    }];
+//    _gcd = [DispatchGCD new];
+//    [_gcd schechRepeatTimer:1 andType:DTSethTimerCAD Res:^{
+//        NSLog(@"repeat???");
+//        [_gcd invalidate];
+//    }];
+//    [gcd GCDtimer];
+//    [gcd barriesAndGroups];
     
-    [self aspect_hookSelector:@selector(viewWillAppear:) withOptions:AspectPositionAfter usingBlock:^{
-        NSLog(@"viewController will appear ...");
-    } error:nil];
+    
+    //TODO: GCD
+//    [[SethMethodManager shareInstance] hookClass:[UIViewController class] method:@selector(viewWillAppear:) withBlock:^{
+//        NSLog(@"viewController will appear ...");
+//    }];
+    
+//    [self aspect_hookSelector:@selector(viewWillAppear:) withOptions:AspectPositionAfter usingBlock:^{
+//        NSLog(@"viewController will appear ...");
+//    } error:nil];
     
     
 }
 
-- (IBAction)test:(UIButton *)sender
+
++ (NSMutableArray *)groupWithObjs:(id)obj, ...
 {
-    UIViewController * vc = [UIViewController new];
-    [self.navigationController pushViewController:vc animated:YES];
+
+    NSMutableArray* objs = [NSMutableArray new];
+    [objs addObject:obj];
+    
+    va_list args;
+    va_start(args, obj);
+    id parmObj;
+    while ((parmObj = va_arg(args, id))) {
+        [objs addObject:parmObj];
+    }
+    va_end(args);
+    
+    return objs;
+}
+
+- (IBAction)autoRecord:(UIButton *)sender {
+    
+}
+
+- (IBAction)autoCapture:(UIButton *)sender
+{
+    
 }
 
 

@@ -22,17 +22,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dg5-sy-gHv">
-                                <rect key="frame" x="172" y="287" width="30" height="30"/>
+                                <rect key="frame" x="91" y="294" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="test"/>
+                                <state key="normal" title="自动拍照"/>
                                 <connections>
-                                    <action selector="test:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lc0-li-Hm4"/>
+                                    <action selector="autoCapture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IWc-57-TNu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se7-ci-JGn">
+                                <rect key="frame" x="227" y="294" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="自动自动录像"/>
+                                <connections>
+                                    <action selector="autoRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="prg-hK-3So"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="WmM-F0-d7I"/>
+                    <connections>
+                        <outlet property="autoCaptureBtn" destination="dg5-sy-gHv" id="bMD-fu-zJB"/>
+                        <outlet property="autoRecordBtn" destination="Se7-ci-JGn" id="Cg1-Ri-CHd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

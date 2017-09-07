@@ -8,10 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_OPTIONS(NSUInteger, TimerType) {
+    DTSethTimerGCD      = 1 ,
+    DTSethTimerCAD      = 2 ,
+    DTSethTimerNSTimer  = 3
+};
+
 @interface DispatchGCD : NSObject
-#warning 没效果 待检测
-- (void) dispatch_RepeatTimer:(NSTimeInterval)time Res:(dispatch_block_t)block ;
+- (void)schechRepeatTimer:(NSTimeInterval)time andType:(TimerType)type  Res:(dispatch_block_t)block ;
 - (void) invalidate ;
-- (void) GCDtimer ;
 - (void) barriesAndGroups ;
 @end
