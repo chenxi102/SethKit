@@ -20,4 +20,7 @@
 - (void)hookClass:(Class )cls
            method:(SEL)sel
         withBlock:(void(^)())block;
+
+
+- (void)methodInvacation;
 @end

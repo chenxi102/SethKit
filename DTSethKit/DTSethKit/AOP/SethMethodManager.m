@@ -53,6 +53,13 @@
     IMP impA = imp_implementationWithBlock(block);
     Method methodb = (__bridge Method)(imp_getBlock(impA));
     method_exchangeImplementations(methoda, methodb);
+    
+    class_replaceMethod(cls, sel, impA, "v@:");
+}
+
+- (void)methodInvacation {
+    
+    
 }
 
 @end

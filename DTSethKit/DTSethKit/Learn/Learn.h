@@ -34,5 +34,30 @@ cocoapod：
     3.pod spec lint --verbose --no-clean
 
 6.  弱类型： OC
-    强类型： 
+    强类型： C++;
 
+7.  id:  typedef struct objc_object *id;
+    struct objc_object {
+        Class isa;
+    };
+    typedef struct objc_class *Class;
+    struct objc_class {
+        Class isa  OBJC_ISA_AVAILABILITY;
+    #if !__OBJC2__
+        Class super_class                                        OBJC2_UNAVAILABLE;
+        const char *name                                         OBJC2_UNAVAILABLE;
+        long version                                             OBJC2_UNAVAILABLE;
+        long info                                                OBJC2_UNAVAILABLE;
+        long instance_size                                       OBJC2_UNAVAILABLE;
+        struct objc_ivar_list *ivars                             OBJC2_UNAVAILABLE;
+        struct objc_method_list **methodLists                    OBJC2_UNAVAILABLE;
+        struct objc_cache *cache                                 OBJC2_UNAVAILABLE;
+        struct objc_protocol_list *protocols                     OBJC2_UNAVAILABLE;
+    #endif
+    } OBJC2_UNAVAILABLE;
+
+    类和结构体的区别：
+    类是存在堆中的，多个引用时修改某一个对象的属性值，其他的对象会发生变化。
+    结构体结构较简单，存放在栈中，多个对象引用时修改某一个对象的属性值，其他的值不会发生变化，没有内存泄露问题。
+
+8.  

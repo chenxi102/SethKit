@@ -92,7 +92,7 @@
 		10312ECF9195DF3563538D7E /* libPods-DTSethKitFrameWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTSethKitFrameWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8260E361E59A5CCC649ABF /* Pods-DTSethKitFrameWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSethKitFrameWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTSethKitFrameWork/Pods-DTSethKitFrameWork.debug.xcconfig"; sourceTree = "<group>"; };
 		4B380E2B0E4C63C9F3FC38CE /* Pods-DTSethKitLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSethKitLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTSethKitLib/Pods-DTSethKitLib.debug.xcconfig"; sourceTree = "<group>"; };
-		5D3FBED11E80FEF500350CF2 /* Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift.playground; sourceTree = "<group>"; };
+		5D3FBED11E80FEF500350CF2 /* Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5D3FBED21E80FF6800350CF2 /* Learn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Learn.h; sourceTree = "<group>"; };
 		5D3FBED41E81090B00350CF2 /* ChainSyntaxSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainSyntaxSample.h; sourceTree = "<group>"; };
 		5D3FBED51E81090B00350CF2 /* ChainSyntaxSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainSyntaxSample.m; sourceTree = "<group>"; };
@@ -213,8 +213,6 @@
 		5D3FBED31E81085A00350CF2 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				5D3FBED41E81090B00350CF2 /* ChainSyntaxSample.h */,
-				5D3FBED51E81090B00350CF2 /* ChainSyntaxSample.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -222,6 +220,8 @@
 		5D3FBED81E8109F400350CF2 /* chainsytax */ = {
 			isa = PBXGroup;
 			children = (
+				5D3FBED41E81090B00350CF2 /* ChainSyntaxSample.h */,
+				5D3FBED51E81090B00350CF2 /* ChainSyntaxSample.m */,
 			);
 			path = chainsytax;
 			sourceTree = "<group>";
