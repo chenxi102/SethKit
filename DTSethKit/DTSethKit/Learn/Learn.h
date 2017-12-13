@@ -60,4 +60,9 @@ cocoapod：
     类是存在堆中的，多个引用时修改某一个对象的属性值，其他的对象会发生变化。
     结构体结构较简单，存放在栈中，多个对象引用时修改某一个对象的属性值，其他的值不会发生变化，没有内存泄露问题。
 
-8.  
+8.  lipo -info xxx.a
+    lipo -thin arm64 xxx.a -output xxx-arm64.a
+    ar -x  xxx-arm64.a
+    otool  xxx-arm64.a| grep bitcode
+    libtool -static -o xxx-new.a *.a
+    lipo -create xxx-xxx.a xxx-armv7.a xxx-arm64.a

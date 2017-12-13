@@ -15,6 +15,7 @@
 		5D6E0FE61E63D2A800D506A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE41E63D2A800D506A7 /* Main.storyboard */; };
 		5D6E0FE81E63D2A800D506A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE71E63D2A800D506A7 /* Assets.xcassets */; };
 		5D6E0FEB1E63D2A800D506A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE91E63D2A800D506A7 /* LaunchScreen.storyboard */; };
+		5DD7BDCD1FE10534006C86B3 /* ExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BDCC1FE10534006C86B3 /* ExampleTableViewController.m */; };
 		5DE07ED61ECDA3DA00B9BEEA /* SethMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE07ED51ECDA3DA00B9BEEA /* SethMethodManager.m */; };
 		5DE07EE91ED2E6E700B9BEEA /* DispatchGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE07EE81ED2E6E600B9BEEA /* DispatchGCD.m */; };
 		E5487D5A393A5B8EE5BAB78F /* libPods-DTSethKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DED90145C7F9C558278C580 /* libPods-DTSethKit.a */; };
@@ -53,6 +54,8 @@
 		5D6E0FE71E63D2A800D506A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D6E0FEA1E63D2A800D506A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D6E0FEC1E63D2A800D506A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD7BDCB1FE10534006C86B3 /* ExampleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleTableViewController.h; sourceTree = "<group>"; };
+		5DD7BDCC1FE10534006C86B3 /* ExampleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTableViewController.m; sourceTree = "<group>"; };
 		5DE0774C1EC2E1B700B9BEEA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		5DE07EC61ECBE4F400B9BEEA /* LearnRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnRuntime.h; sourceTree = "<group>"; };
 		5DE07ED41ECDA3DA00B9BEEA /* SethMethodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SethMethodManager.h; sourceTree = "<group>"; };
@@ -199,9 +202,27 @@
 			path = AOP;
 			sourceTree = "<group>";
 		};
+		5DD7BDC91FE104D2006C86B3 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				5DD7BDCA1FE1050A006C86B3 /* tableView */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		5DD7BDCA1FE1050A006C86B3 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				5DD7BDCB1FE10534006C86B3 /* ExampleTableViewController.h */,
+				5DD7BDCC1FE10534006C86B3 /* ExampleTableViewController.m */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
 		5DDC68AB1FDFD555006B4825 /* FastDevelopment */ = {
 			isa = PBXGroup;
 			children = (
+				5DD7BDC91FE104D2006C86B3 /* OC */,
 			);
 			path = FastDevelopment;
 			sourceTree = "<group>";
@@ -340,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3FBED61E81090B00350CF2 /* ChainSyntaxSample.m in Sources */,
+				5DD7BDCD1FE10534006C86B3 /* ExampleTableViewController.m in Sources */,
 				5D6E0FE31E63D2A800D506A7 /* ViewController.m in Sources */,
 				5DE07EE91ED2E6E700B9BEEA /* DispatchGCD.m in Sources */,
 				5D6E0FE01E63D2A800D506A7 /* AppDelegate.m in Sources */,

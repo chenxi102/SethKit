@@ -48,7 +48,8 @@
         do{
             [NSThread sleepForTimeInterval:5];
             if (bgTask!= UIBackgroundTaskInvalid) {
-                timeRemain = [application backgroundTimeRemaining];                                      NSLog(@"Time remaining: %f",timeRemain);
+                timeRemain = [application backgroundTimeRemaining];
+                NSLog(@"Time remaining: %f",timeRemain);
             }
         }while(bgTask!= UIBackgroundTaskInvalid && timeRemain > 1*60);
         // 如果改为timeRemain > 5*60,表示后台运行5分钟
