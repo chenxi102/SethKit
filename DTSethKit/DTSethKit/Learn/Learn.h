@@ -66,3 +66,14 @@ cocoapod：
     otool  xxx-arm64.a| grep bitcode
     libtool -static -o xxx-new.a *.a
     lipo -create xxx-xxx.a xxx-armv7.a xxx-arm64.a
+
+9. {
+    1. connect:   telnet 192.168.155.1 7665   (连接telnet)
+    2. root
+    3. !detu123
+    4. tftp -g 192.168.155.100 -r rtsp_server -l /rtsp_server  (tftp 传输rtsp_server到 相机)
+    5. chmod 777 *
+    6. /rtsp_server  (运行rtsp进程)
+    7. ps             (查看所有的进程)
+    8. /customer/detu/f4_plus_app & (运行App进程)
+    }
