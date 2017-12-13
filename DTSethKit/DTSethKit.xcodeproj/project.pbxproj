@@ -15,73 +15,18 @@
 		5D6E0FE61E63D2A800D506A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE41E63D2A800D506A7 /* Main.storyboard */; };
 		5D6E0FE81E63D2A800D506A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE71E63D2A800D506A7 /* Assets.xcassets */; };
 		5D6E0FEB1E63D2A800D506A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE91E63D2A800D506A7 /* LaunchScreen.storyboard */; };
-		5D6E1B7F1E6AAADA00D506A7 /* DTSethKitLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E1B7E1E6AAADA00D506A7 /* DTSethKitLib.m */; };
-		5D6E1B801E6AAADA00D506A7 /* DTSethKitLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D6E1B7D1E6AAADA00D506A7 /* DTSethKitLib.h */; };
-		5D6E1B8D1E6AAB0B00D506A7 /* DTSethKitFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6E1B8B1E6AAB0B00D506A7 /* DTSethKitFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D6E1B901E6AAB0B00D506A7 /* DTSethKitFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6E1B891E6AAB0B00D506A7 /* DTSethKitFrameWork.framework */; };
-		5D6E1B911E6AAB0B00D506A7 /* DTSethKitFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6E1B891E6AAB0B00D506A7 /* DTSethKitFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5DE077341EC1FDCA00B9BEEA /* ChainSyntaxSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3FBED51E81090B00350CF2 /* ChainSyntaxSample.m */; };
-		5DE077351EC1FDCA00B9BEEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE21E63D2A800D506A7 /* ViewController.m */; };
-		5DE077361EC1FDCA00B9BEEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E0FDF1E63D2A800D506A7 /* AppDelegate.m */; };
-		5DE077371EC1FDCA00B9BEEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E0FDC1E63D2A800D506A7 /* main.m */; };
-		5DE077391EC1FDCA00B9BEEA /* DTSethKitFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6E1B891E6AAB0B00D506A7 /* DTSethKitFrameWork.framework */; };
-		5DE0773C1EC1FDCA00B9BEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE91E63D2A800D506A7 /* LaunchScreen.storyboard */; };
-		5DE0773D1EC1FDCA00B9BEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE71E63D2A800D506A7 /* Assets.xcassets */; };
-		5DE0773E1EC1FDCA00B9BEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE41E63D2A800D506A7 /* Main.storyboard */; };
-		5DE077401EC1FDCA00B9BEEA /* DTSethKitFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6E1B891E6AAB0B00D506A7 /* DTSethKitFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5DE07ED61ECDA3DA00B9BEEA /* SethMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE07ED51ECDA3DA00B9BEEA /* SethMethodManager.m */; };
 		5DE07EE91ED2E6E700B9BEEA /* DispatchGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE07EE81ED2E6E600B9BEEA /* DispatchGCD.m */; };
-		D5F4C2A434D22E38ED37F3FE /* libPods-DTSethKitLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB282B108AE895C839F8F13 /* libPods-DTSethKitLib.a */; };
-		E43B6EACF90DCE9098E4DDDC /* libPods-DTSethKitFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10312ECF9195DF3563538D7E /* libPods-DTSethKitFrameWork.a */; };
 		E5487D5A393A5B8EE5BAB78F /* libPods-DTSethKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DED90145C7F9C558278C580 /* libPods-DTSethKit.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5D6E1B8E1E6AAB0B00D506A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D6E0FD01E63D2A800D506A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D6E1B881E6AAB0B00D506A7;
-			remoteInfo = DTSethKitFrameWork;
-		};
-		5DE077311EC1FDCA00B9BEEA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D6E0FD01E63D2A800D506A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D6E1B881E6AAB0B00D506A7;
-			remoteInfo = DTSethKitFrameWork;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		5D6E1B791E6AAADA00D506A7 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				5D6E1B801E6AAADA00D506A7 /* DTSethKitLib.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5D6E1B951E6AAB0B00D506A7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5D6E1B911E6AAB0B00D506A7 /* DTSethKitFrameWork.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5DE0773F1EC1FDCA00B9BEEA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				5DE077401EC1FDCA00B9BEEA /* DTSethKitFrameWork.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,13 +53,6 @@
 		5D6E0FE71E63D2A800D506A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D6E0FEA1E63D2A800D506A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D6E0FEC1E63D2A800D506A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D6E1B7B1E6AAADA00D506A7 /* libDTSethKitLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDTSethKitLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D6E1B7D1E6AAADA00D506A7 /* DTSethKitLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTSethKitLib.h; sourceTree = "<group>"; };
-		5D6E1B7E1E6AAADA00D506A7 /* DTSethKitLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSethKitLib.m; sourceTree = "<group>"; };
-		5D6E1B891E6AAB0B00D506A7 /* DTSethKitFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTSethKitFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D6E1B8B1E6AAB0B00D506A7 /* DTSethKitFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTSethKitFrameWork.h; sourceTree = "<group>"; };
-		5D6E1B8C1E6AAB0B00D506A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DE077461EC1FDCA00B9BEEA /* DTSethKit-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DTSethKit-New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE0774C1EC2E1B700B9BEEA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		5DE07EC61ECBE4F400B9BEEA /* LearnRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnRuntime.h; sourceTree = "<group>"; };
 		5DE07ED41ECDA3DA00B9BEEA /* SethMethodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SethMethodManager.h; sourceTree = "<group>"; };
@@ -135,33 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D6E1B901E6AAB0B00D506A7 /* DTSethKitFrameWork.framework in Frameworks */,
 				1B76087471922C3BD75C842F /* libPods-DTSethKit.a in Frameworks */,
 				E5487D5A393A5B8EE5BAB78F /* libPods-DTSethKit.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D6E1B781E6AAADA00D506A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5F4C2A434D22E38ED37F3FE /* libPods-DTSethKitLib.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D6E1B851E6AAB0B00D506A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E43B6EACF90DCE9098E4DDDC /* libPods-DTSethKitFrameWork.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5DE077381EC1FDCA00B9BEEA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DE077391EC1FDCA00B9BEEA /* DTSethKitFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,13 +123,6 @@
 			path = Learn;
 			sourceTree = "<group>";
 		};
-		5D3FBED31E81085A00350CF2 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
 		5D3FBED81E8109F400350CF2 /* chainsytax */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,11 +135,7 @@
 		5D6E0FCF1E63D2A800D506A7 = {
 			isa = PBXGroup;
 			children = (
-				5D6E1B7C1E6AAADA00D506A7 /* DTSethKitLib */,
-				5DE077491EC2010400B9BEEA /* DTSethKit-Common */,
-				5DE077481EC2006200B9BEEA /* DTSethKit-New */,
 				5D6E0FDA1E63D2A800D506A7 /* DTSethKit */,
-				5D6E1B8A1E6AAB0B00D506A7 /* DTSethKitFrameWork */,
 				5D6E0FD91E63D2A800D506A7 /* Products */,
 				07321F5D7E96D74CAF552193 /* Pods */,
 				2FF2DD006873FCB146EBF917 /* Frameworks */,
@@ -244,9 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				5D6E0FD81E63D2A800D506A7 /* DTSethKit.app */,
-				5D6E1B7B1E6AAADA00D506A7 /* libDTSethKitLib.a */,
-				5D6E1B891E6AAB0B00D506A7 /* DTSethKitFrameWork.framework */,
-				5DE077461EC1FDCA00B9BEEA /* DTSethKit-New.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,11 +153,11 @@
 		5D6E0FDA1E63D2A800D506A7 /* DTSethKit */ = {
 			isa = PBXGroup;
 			children = (
-				5D3FBED31E81085A00350CF2 /* Tools */,
 				5D6E1B961E6E5B4E00D506A7 /* AppUtil */,
 				5D3FBECD1E7FBE9000350CF2 /* Category */,
 				5D6E1B971E6E5B5E00D506A7 /* AOP */,
 				5D3FBED01E80FEEA00350CF2 /* Learn */,
+				5DDC68AB1FDFD555006B4825 /* FastDevelopment */,
 				5D6E0FDE1E63D2A800D506A7 /* AppDelegate.h */,
 				5D6E0FDF1E63D2A800D506A7 /* AppDelegate.m */,
 				5D6E0FE11E63D2A800D506A7 /* ViewController.h */,
@@ -281,24 +180,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5D6E1B7C1E6AAADA00D506A7 /* DTSethKitLib */ = {
-			isa = PBXGroup;
-			children = (
-				5D6E1B7D1E6AAADA00D506A7 /* DTSethKitLib.h */,
-				5D6E1B7E1E6AAADA00D506A7 /* DTSethKitLib.m */,
-			);
-			path = DTSethKitLib;
-			sourceTree = "<group>";
-		};
-		5D6E1B8A1E6AAB0B00D506A7 /* DTSethKitFrameWork */ = {
-			isa = PBXGroup;
-			children = (
-				5D6E1B8B1E6AAB0B00D506A7 /* DTSethKitFrameWork.h */,
-				5D6E1B8C1E6AAB0B00D506A7 /* Info.plist */,
-			);
-			path = DTSethKitFrameWork;
-			sourceTree = "<group>";
-		};
 		5D6E1B961E6E5B4E00D506A7 /* AppUtil */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,18 +199,11 @@
 			path = AOP;
 			sourceTree = "<group>";
 		};
-		5DE077481EC2006200B9BEEA /* DTSethKit-New */ = {
+		5DDC68AB1FDFD555006B4825 /* FastDevelopment */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "DTSethKit-New";
-			sourceTree = "<group>";
-		};
-		5DE077491EC2010400B9BEEA /* DTSethKit-Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "DTSethKit-Common";
+			path = FastDevelopment;
 			sourceTree = "<group>";
 		};
 		5DE07EE61ED2E6CE00B9BEEA /* GCD */ = {
@@ -342,17 +216,6 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		5D6E1B861E6AAB0B00D506A7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D6E1B8D1E6AAB0B00D506A7 /* DTSethKitFrameWork.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5D6E0FD71E63D2A800D506A7 /* DTSethKit */ = {
@@ -370,69 +233,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				5D6E1B8F1E6AAB0B00D506A7 /* PBXTargetDependency */,
 			);
 			name = DTSethKit;
 			productName = DTSethKit;
 			productReference = 5D6E0FD81E63D2A800D506A7 /* DTSethKit.app */;
-			productType = "com.apple.product-type.application";
-		};
-		5D6E1B7A1E6AAADA00D506A7 /* DTSethKitLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D6E1B811E6AAADA00D506A7 /* Build configuration list for PBXNativeTarget "DTSethKitLib" */;
-			buildPhases = (
-				B0E0489AF67782661CFEA176 /* [CP] Check Pods Manifest.lock */,
-				5D6E1B771E6AAADA00D506A7 /* Sources */,
-				5D6E1B781E6AAADA00D506A7 /* Frameworks */,
-				5D6E1B791E6AAADA00D506A7 /* CopyFiles */,
-				616C69F8A910A64774126DD5 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DTSethKitLib;
-			productName = DTSethKitLib;
-			productReference = 5D6E1B7B1E6AAADA00D506A7 /* libDTSethKitLib.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		5D6E1B881E6AAB0B00D506A7 /* DTSethKitFrameWork */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D6E1B921E6AAB0B00D506A7 /* Build configuration list for PBXNativeTarget "DTSethKitFrameWork" */;
-			buildPhases = (
-				CEBDCC7AD71FA1226C661C42 /* [CP] Check Pods Manifest.lock */,
-				5D6E1B841E6AAB0B00D506A7 /* Sources */,
-				5D6E1B851E6AAB0B00D506A7 /* Frameworks */,
-				5D6E1B861E6AAB0B00D506A7 /* Headers */,
-				5D6E1B871E6AAB0B00D506A7 /* Resources */,
-				50ECCC220C8104CE80B853EC /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DTSethKitFrameWork;
-			productName = DTSethKitFrameWork;
-			productReference = 5D6E1B891E6AAB0B00D506A7 /* DTSethKitFrameWork.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5DE0772F1EC1FDCA00B9BEEA /* DTSethKit-New */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5DE077431EC1FDCA00B9BEEA /* Build configuration list for PBXNativeTarget "DTSethKit-New" */;
-			buildPhases = (
-				5DE077331EC1FDCA00B9BEEA /* Sources */,
-				5DE077381EC1FDCA00B9BEEA /* Frameworks */,
-				5DE0773B1EC1FDCA00B9BEEA /* Resources */,
-				5DE0773F1EC1FDCA00B9BEEA /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5DE077301EC1FDCA00B9BEEA /* PBXTargetDependency */,
-			);
-			name = "DTSethKit-New";
-			productName = DTSethKit;
-			productReference = 5DE077461EC1FDCA00B9BEEA /* DTSethKit-New.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -448,19 +252,6 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 2T4W7AYHBZ;
 						ProvisioningStyle = Manual;
-					};
-					5D6E1B7A1E6AAADA00D506A7 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2T4W7AYHBZ;
-						ProvisioningStyle = Automatic;
-					};
-					5D6E1B881E6AAB0B00D506A7 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2T4W7AYHBZ;
-						ProvisioningStyle = Automatic;
-					};
-					5DE0772F1EC1FDCA00B9BEEA = {
-						DevelopmentTeam = 2T4W7AYHBZ;
 					};
 				};
 			};
@@ -478,9 +269,6 @@
 			projectRoot = "";
 			targets = (
 				5D6E0FD71E63D2A800D506A7 /* DTSethKit */,
-				5D6E1B7A1E6AAADA00D506A7 /* DTSethKitLib */,
-				5D6E1B881E6AAB0B00D506A7 /* DTSethKitFrameWork */,
-				5DE0772F1EC1FDCA00B9BEEA /* DTSethKit-New */,
 			);
 		};
 /* End PBXProject section */
@@ -496,71 +284,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D6E1B871E6AAB0B00D506A7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5DE0773B1EC1FDCA00B9BEEA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DE0773C1EC1FDCA00B9BEEA /* LaunchScreen.storyboard in Resources */,
-				5DE0773D1EC1FDCA00B9BEEA /* Assets.xcassets in Resources */,
-				5DE0773E1EC1FDCA00B9BEEA /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		50ECCC220C8104CE80B853EC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTSethKitFrameWork/Pods-DTSethKitFrameWork-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		616C69F8A910A64774126DD5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTSethKitLib/Pods-DTSethKitLib-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B0E0489AF67782661CFEA176 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		B88178CB9607F4163B1E4B37 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -589,21 +315,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTSethKit/Pods-DTSethKit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CEBDCC7AD71FA1226C661C42 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F1795544F5CA52D1A726B25B /* [CP] Copy Pods Resources */ = {
@@ -637,46 +348,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D6E1B771E6AAADA00D506A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D6E1B7F1E6AAADA00D506A7 /* DTSethKitLib.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D6E1B841E6AAB0B00D506A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5DE077331EC1FDCA00B9BEEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DE077341EC1FDCA00B9BEEA /* ChainSyntaxSample.m in Sources */,
-				5DE077351EC1FDCA00B9BEEA /* ViewController.m in Sources */,
-				5DE077361EC1FDCA00B9BEEA /* AppDelegate.m in Sources */,
-				5DE077371EC1FDCA00B9BEEA /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5D6E1B8F1E6AAB0B00D506A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D6E1B881E6AAB0B00D506A7 /* DTSethKitFrameWork */;
-			targetProxy = 5D6E1B8E1E6AAB0B00D506A7 /* PBXContainerItemProxy */;
-		};
-		5DE077301EC1FDCA00B9BEEA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D6E1B881E6AAB0B00D506A7 /* DTSethKitFrameWork */;
-			targetProxy = 5DE077311EC1FDCA00B9BEEA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5D6E0FE41E63D2A800D506A7 /* Main.storyboard */ = {
@@ -821,110 +493,6 @@
 			};
 			name = Release;
 		};
-		5D6E1B821E6AAADA00D506A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B380E2B0E4C63C9F3FC38CE /* Pods-DTSethKitLib.debug.xcconfig */;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 2T4W7AYHBZ;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		5D6E1B831E6AAADA00D506A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA456857436C7F497304FC9B /* Pods-DTSethKitLib.release.xcconfig */;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 2T4W7AYHBZ;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		5D6E1B931E6AAB0B00D506A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A8260E361E59A5CCC649ABF /* Pods-DTSethKitFrameWork.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 2T4W7AYHBZ;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = DTSethKit/DTSethKit.pch;
-				INFOPLIST_FILE = DTSethKitFrameWork/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = mh_dylib;
-				PRODUCT_BUNDLE_IDENTIFIER = com.detu.DTSethKitFrameWork;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5D6E1B941E6AAB0B00D506A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65529E530696752B94B3E018 /* Pods-DTSethKitFrameWork.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 2T4W7AYHBZ;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = DTSethKit/DTSethKit.pch;
-				INFOPLIST_FILE = DTSethKitFrameWork/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = mh_dylib;
-				PRODUCT_BUNDLE_IDENTIFIER = com.detu.DTSethKitFrameWork;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5DE077441EC1FDCA00B9BEEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = NO;
-				DEVELOPMENT_TEAM = 2T4W7AYHBZ;
-				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "TARGET_VERSION_LITE=1";
-				INFOPLIST_FILE = DTSethKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.detu.DTSethKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		5DE077451EC1FDCA00B9BEEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = NO;
-				DEVELOPMENT_TEAM = 2T4W7AYHBZ;
-				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "TARGET_VERSION_LITE=1";
-				INFOPLIST_FILE = DTSethKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.detu.DTSethKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -942,33 +510,6 @@
 			buildConfigurations = (
 				5D6E0FF01E63D2A800D506A7 /* Debug */,
 				5D6E0FF11E63D2A800D506A7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D6E1B811E6AAADA00D506A7 /* Build configuration list for PBXNativeTarget "DTSethKitLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D6E1B821E6AAADA00D506A7 /* Debug */,
-				5D6E1B831E6AAADA00D506A7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D6E1B921E6AAB0B00D506A7 /* Build configuration list for PBXNativeTarget "DTSethKitFrameWork" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D6E1B931E6AAB0B00D506A7 /* Debug */,
-				5D6E1B941E6AAB0B00D506A7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5DE077431EC1FDCA00B9BEEA /* Build configuration list for PBXNativeTarget "DTSethKit-New" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5DE077441EC1FDCA00B9BEEA /* Debug */,
-				5DE077451EC1FDCA00B9BEEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

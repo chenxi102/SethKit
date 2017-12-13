@@ -51,9 +51,9 @@
 // TODO: method ...
 
 - (fuckOffVoid)one{
-    WeakSelf
+    @weak(self)
     return ^(NSString *param1, NSString *param2){
-        StrongSelf
+        @strong(self)
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             NSLog(@"%@\n%@", param1, param2);
             [self noWaitjustContinue];
@@ -65,9 +65,9 @@
 
 - (fuckOffNsstring)two
 {
-    WeakSelf
+    @weak(self)
     return ^(NSString * fuck){
-        StrongSelf
+        @strong(self)
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             NSLog(@"%@", fuck);
             [self noWaitjustContinue];
@@ -89,9 +89,9 @@
 
 - (fuckOffid)then {
     
-    WeakSelf
+    @weak(self)
     return ^(id block) {
-    StrongSelf
+        @strong(self)
         
         return self;
     };
