@@ -67,7 +67,6 @@
 
 
 
-
 static void SethSpect_performLocked(dispatch_block_t block) {
     static OSSpinLock aspect_lock = OS_SPINLOCK_INIT;
     OSSpinLockLock(&aspect_lock);

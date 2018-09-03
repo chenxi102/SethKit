@@ -20,7 +20,10 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    //    UIImage * tempImage = self.headImageView.image;
+    //    tempImage = [tempImage imageWithRenderingMode:(UIImageRenderingModeAlwaysTemplate)];
+    //    self.headImageView.image = tempImage;
 }
 
 #pragma mark - Table view data source

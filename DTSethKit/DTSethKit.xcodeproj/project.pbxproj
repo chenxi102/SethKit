@@ -15,6 +15,7 @@
 		5D6E0FE61E63D2A800D506A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE41E63D2A800D506A7 /* Main.storyboard */; };
 		5D6E0FE81E63D2A800D506A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE71E63D2A800D506A7 /* Assets.xcassets */; };
 		5D6E0FEB1E63D2A800D506A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE91E63D2A800D506A7 /* LaunchScreen.storyboard */; };
+		5D6F7B9A212C105F00AD4BE9 /* SethAutopool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6F7B99212C105F00AD4BE9 /* SethAutopool.m */; };
 		5DD7BDCD1FE10534006C86B3 /* ExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BDCC1FE10534006C86B3 /* ExampleTableViewController.m */; };
 		5DE07ED61ECDA3DA00B9BEEA /* SethMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE07ED51ECDA3DA00B9BEEA /* SethMethodManager.m */; };
 		5DE07EE91ED2E6E700B9BEEA /* DispatchGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE07EE81ED2E6E600B9BEEA /* DispatchGCD.m */; };
@@ -54,6 +55,8 @@
 		5D6E0FE71E63D2A800D506A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D6E0FEA1E63D2A800D506A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D6E0FEC1E63D2A800D506A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6F7B98212C105F00AD4BE9 /* SethAutopool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SethAutopool.h; sourceTree = "<group>"; };
+		5D6F7B99212C105F00AD4BE9 /* SethAutopool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SethAutopool.m; sourceTree = "<group>"; };
 		5DD7BDCB1FE10534006C86B3 /* ExampleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleTableViewController.h; sourceTree = "<group>"; };
 		5DD7BDCC1FE10534006C86B3 /* ExampleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTableViewController.m; sourceTree = "<group>"; };
 		5DE0774C1EC2E1B700B9BEEA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
@@ -118,6 +121,7 @@
 		5D3FBED01E80FEEA00350CF2 /* Learn */ = {
 			isa = PBXGroup;
 			children = (
+				5D6F7B91212BBFEA00AD4BE9 /* AutoPool */,
 				5DE07EE61ED2E6CE00B9BEEA /* GCD */,
 				5D3FBED81E8109F400350CF2 /* chainsytax */,
 				5D3FBED11E80FEF500350CF2 /* Swift.playground */,
@@ -200,6 +204,15 @@
 				5DE07ED51ECDA3DA00B9BEEA /* SethMethodManager.m */,
 			);
 			path = AOP;
+			sourceTree = "<group>";
+		};
+		5D6F7B91212BBFEA00AD4BE9 /* AutoPool */ = {
+			isa = PBXGroup;
+			children = (
+				5D6F7B98212C105F00AD4BE9 /* SethAutopool.h */,
+				5D6F7B99212C105F00AD4BE9 /* SethAutopool.m */,
+			);
+			path = AutoPool;
 			sourceTree = "<group>";
 		};
 		5DD7BDC91FE104D2006C86B3 /* OC */ = {
@@ -360,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6F7B9A212C105F00AD4BE9 /* SethAutopool.m in Sources */,
 				5D3FBED61E81090B00350CF2 /* ChainSyntaxSample.m in Sources */,
 				5DD7BDCD1FE10534006C86B3 /* ExampleTableViewController.m in Sources */,
 				5D6E0FE31E63D2A800D506A7 /* ViewController.m in Sources */,
@@ -494,8 +508,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.detu.DTSethKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "59e96add-1efc-4b2b-83ea-fa1557759354";
-				PROVISIONING_PROFILE_SPECIFIER = 186_seth_dev;
+				PROVISIONING_PROFILE = "24e6b230-3ba6-4a8e-a60f-c50d6c104225";
+				PROVISIONING_PROFILE_SPECIFIER = "detuapp-wild";
 			};
 			name = Debug;
 		};
