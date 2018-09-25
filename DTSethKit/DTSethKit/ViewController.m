@@ -63,6 +63,15 @@
     
 }
 
+- (void)measureTest {
+    
+    NSMutableArray * mut = [NSMutableArray array];
+    for (int i = 0; i < 99 ; i ++) {
+        UIImage * image = [UIImage new];
+        [mut addObject:image];
+        usleep(10);
+    }
+}
 
 + (NSMutableArray *)groupWithObjs:(id)obj, ...
 {
@@ -81,8 +90,27 @@
     return objs;
 }
 
-- (IBAction)autoRecord:(UIButton *)sender {
+- (void)printSomething:(void(^)(id obj, ...))rec {
     
+    rec(@"1",@"2",@"3");
+ 
+    [self printSomething:^(id obj, ...) {
+        
+        NSMutableArray* objs = [NSMutableArray new];
+        [objs addObject:obj];
+        va_list args;
+        va_start(args, obj);
+        id p_obj;
+        while ((p_obj = va_arg(args, id))) {
+            [objs addObject:p_obj];
+        }
+        va_end(args);
+        
+    }];
+}
+
+- (IBAction)autoRecord:(UIButton *)sender {
+    [[self class] groupWithObjs:@[@"1",@"2"]];
 }
 
 - (IBAction)autoCapture:(UIButton *)sender

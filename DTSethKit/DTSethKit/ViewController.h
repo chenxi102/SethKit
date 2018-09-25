@@ -10,7 +10,7 @@
 #import "Macros.h"
 @interface ViewController : UIViewController
 
-
+- (void)measureTest;
 
 
 @end

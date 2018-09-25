@@ -101,3 +101,21 @@ cocoapod：
 // 信号量：多线程使用
 // 条件锁：符合条件的时候加锁解锁
 //
+
+11. 多参数
+
+    (id obj, ...)
+    NSMutableArray* objs = [NSMutableArray new];
+    [objs addObject:obj];
+    va_list args;
+    va_start(args, obj);
+    id p_obj;
+    while ((p_obj = va_arg(args, id))) {
+        [objs addObject:p_obj];
+    }
+    va_end(args);
+
+
+
+
+

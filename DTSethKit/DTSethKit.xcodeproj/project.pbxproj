@@ -8,19 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		1B76087471922C3BD75C842F /* libPods-DTSethKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DED90145C7F9C558278C580 /* libPods-DTSethKit.a */; };
-		5D3FBED61E81090B00350CF2 /* ChainSyntaxSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3FBED51E81090B00350CF2 /* ChainSyntaxSample.m */; };
+		5D66E7BD2140FB9A00F70503 /* DTSethKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D66E7BC2140FB9A00F70503 /* DTSethKitTests.m */; };
+		5D66E7CB2140FBAE00F70503 /* DTSethKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D66E7CA2140FBAE00F70503 /* DTSethKitUITests.m */; };
 		5D6E0FDD1E63D2A800D506A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E0FDC1E63D2A800D506A7 /* main.m */; };
 		5D6E0FE01E63D2A800D506A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E0FDF1E63D2A800D506A7 /* AppDelegate.m */; };
 		5D6E0FE31E63D2A800D506A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE21E63D2A800D506A7 /* ViewController.m */; };
 		5D6E0FE61E63D2A800D506A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE41E63D2A800D506A7 /* Main.storyboard */; };
 		5D6E0FE81E63D2A800D506A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE71E63D2A800D506A7 /* Assets.xcassets */; };
 		5D6E0FEB1E63D2A800D506A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E0FE91E63D2A800D506A7 /* LaunchScreen.storyboard */; };
-		5D6F7B9A212C105F00AD4BE9 /* SethAutopool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6F7B99212C105F00AD4BE9 /* SethAutopool.m */; };
-		5DD7BDCD1FE10534006C86B3 /* ExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BDCC1FE10534006C86B3 /* ExampleTableViewController.m */; };
-		5DE07ED61ECDA3DA00B9BEEA /* SethMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE07ED51ECDA3DA00B9BEEA /* SethMethodManager.m */; };
-		5DE07EE91ED2E6E700B9BEEA /* DispatchGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE07EE81ED2E6E600B9BEEA /* DispatchGCD.m */; };
+		5D74E0282153707F00F3656E /* ExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D74E0262153707E00F3656E /* ExampleTableViewController.m */; };
+		5D74E0302153708C00F3656E /* SethMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D74E02C2153708C00F3656E /* SethMethodManager.m */; };
+		5D74E0312153708D00F3656E /* F4SocketBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D74E02F2153708C00F3656E /* F4SocketBase.m */; };
+		5D74E03D2153709900F3656E /* ChainSyntaxSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D74E0342153709900F3656E /* ChainSyntaxSample.m */; };
+		5D74E03E2153709900F3656E /* SethAutopool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D74E0372153709900F3656E /* SethAutopool.m */; };
+		5D74E03F2153709900F3656E /* DispatchGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D74E03B2153709900F3656E /* DispatchGCD.m */; };
 		E5487D5A393A5B8EE5BAB78F /* libPods-DTSethKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DED90145C7F9C558278C580 /* libPods-DTSethKit.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D66E7BF2140FB9A00F70503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D6E0FD01E63D2A800D506A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6E0FD71E63D2A800D506A7;
+			remoteInfo = DTSethKit;
+		};
+		5D66E7CD2140FBAE00F70503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D6E0FD01E63D2A800D506A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6E0FD71E63D2A800D506A7;
+			remoteInfo = DTSethKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5D6E1B951E6AAB0B00D506A7 /* Embed Frameworks */ = {
@@ -39,12 +59,13 @@
 		10312ECF9195DF3563538D7E /* libPods-DTSethKitFrameWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTSethKitFrameWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8260E361E59A5CCC649ABF /* Pods-DTSethKitFrameWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSethKitFrameWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTSethKitFrameWork/Pods-DTSethKitFrameWork.debug.xcconfig"; sourceTree = "<group>"; };
 		4B380E2B0E4C63C9F3FC38CE /* Pods-DTSethKitLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSethKitLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTSethKitLib/Pods-DTSethKitLib.debug.xcconfig"; sourceTree = "<group>"; };
-		5D3FBED11E80FEF500350CF2 /* Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		5D3FBED21E80FF6800350CF2 /* Learn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Learn.h; sourceTree = "<group>"; };
-		5D3FBED41E81090B00350CF2 /* ChainSyntaxSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainSyntaxSample.h; sourceTree = "<group>"; };
-		5D3FBED51E81090B00350CF2 /* ChainSyntaxSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainSyntaxSample.m; sourceTree = "<group>"; };
 		5D3FBED71E81098600350CF2 /* DTSethKit.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTSethKit.pch; sourceTree = "<group>"; };
-		5D3FBED91E810BE900350CF2 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		5D66E7BA2140FB9A00F70503 /* DTSethKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTSethKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D66E7BC2140FB9A00F70503 /* DTSethKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSethKitTests.m; sourceTree = "<group>"; };
+		5D66E7BE2140FB9A00F70503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D66E7C82140FBAE00F70503 /* DTSethKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTSethKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D66E7CA2140FBAE00F70503 /* DTSethKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSethKitUITests.m; sourceTree = "<group>"; };
+		5D66E7CC2140FBAE00F70503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D6E0FD81E63D2A800D506A7 /* DTSethKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTSethKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6E0FDC1E63D2A800D506A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D6E0FDE1E63D2A800D506A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,16 +76,23 @@
 		5D6E0FE71E63D2A800D506A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D6E0FEA1E63D2A800D506A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D6E0FEC1E63D2A800D506A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D6F7B98212C105F00AD4BE9 /* SethAutopool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SethAutopool.h; sourceTree = "<group>"; };
-		5D6F7B99212C105F00AD4BE9 /* SethAutopool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SethAutopool.m; sourceTree = "<group>"; };
-		5DD7BDCB1FE10534006C86B3 /* ExampleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleTableViewController.h; sourceTree = "<group>"; };
-		5DD7BDCC1FE10534006C86B3 /* ExampleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTableViewController.m; sourceTree = "<group>"; };
-		5DE0774C1EC2E1B700B9BEEA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
-		5DE07EC61ECBE4F400B9BEEA /* LearnRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnRuntime.h; sourceTree = "<group>"; };
-		5DE07ED41ECDA3DA00B9BEEA /* SethMethodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SethMethodManager.h; sourceTree = "<group>"; };
-		5DE07ED51ECDA3DA00B9BEEA /* SethMethodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SethMethodManager.m; sourceTree = "<group>"; };
-		5DE07EE71ED2E6E600B9BEEA /* DispatchGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchGCD.h; sourceTree = "<group>"; };
-		5DE07EE81ED2E6E600B9BEEA /* DispatchGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchGCD.m; sourceTree = "<group>"; };
+		5D74E0212153707E00F3656E /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		5D74E0262153707E00F3656E /* ExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTableViewController.m; sourceTree = "<group>"; };
+		5D74E0272153707E00F3656E /* ExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleTableViewController.h; sourceTree = "<group>"; };
+		5D74E02A2153708C00F3656E /* LearnRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnRuntime.h; sourceTree = "<group>"; };
+		5D74E02B2153708C00F3656E /* F4SocketBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F4SocketBase.h; sourceTree = "<group>"; };
+		5D74E02C2153708C00F3656E /* SethMethodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SethMethodManager.m; sourceTree = "<group>"; };
+		5D74E02D2153708C00F3656E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		5D74E02E2153708C00F3656E /* SethMethodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SethMethodManager.h; sourceTree = "<group>"; };
+		5D74E02F2153708C00F3656E /* F4SocketBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F4SocketBase.m; sourceTree = "<group>"; };
+		5D74E0322153709900F3656E /* Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift.playground; sourceTree = "<group>"; };
+		5D74E0342153709900F3656E /* ChainSyntaxSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainSyntaxSample.m; sourceTree = "<group>"; };
+		5D74E0352153709900F3656E /* ChainSyntaxSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainSyntaxSample.h; sourceTree = "<group>"; };
+		5D74E0372153709900F3656E /* SethAutopool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SethAutopool.m; sourceTree = "<group>"; };
+		5D74E0382153709900F3656E /* SethAutopool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SethAutopool.h; sourceTree = "<group>"; };
+		5D74E03A2153709900F3656E /* DispatchGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchGCD.h; sourceTree = "<group>"; };
+		5D74E03B2153709900F3656E /* DispatchGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchGCD.m; sourceTree = "<group>"; };
+		5D74E03C2153709900F3656E /* Learn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Learn.h; sourceTree = "<group>"; };
 		65529E530696752B94B3E018 /* Pods-DTSethKitFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSethKitFrameWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTSethKitFrameWork/Pods-DTSethKitFrameWork.release.xcconfig"; sourceTree = "<group>"; };
 		7BB282B108AE895C839F8F13 /* libPods-DTSethKitLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTSethKitLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DED90145C7F9C558278C580 /* libPods-DTSethKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTSethKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +103,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5D66E7B72140FB9A00F70503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D66E7C52140FBAE00F70503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D6E0FD51E63D2A800D506A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,38 +153,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5D3FBECD1E7FBE9000350CF2 /* Category */ = {
+		5D66E7BB2140FB9A00F70503 /* DTSethKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				5D66E7BC2140FB9A00F70503 /* DTSethKitTests.m */,
+				5D66E7BE2140FB9A00F70503 /* Info.plist */,
 			);
-			path = Category;
+			path = DTSethKitTests;
 			sourceTree = "<group>";
 		};
-		5D3FBED01E80FEEA00350CF2 /* Learn */ = {
+		5D66E7C92140FBAE00F70503 /* DTSethKitUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5D6F7B91212BBFEA00AD4BE9 /* AutoPool */,
-				5DE07EE61ED2E6CE00B9BEEA /* GCD */,
-				5D3FBED81E8109F400350CF2 /* chainsytax */,
-				5D3FBED11E80FEF500350CF2 /* Swift.playground */,
-				5D3FBED21E80FF6800350CF2 /* Learn.h */,
+				5D66E7CA2140FBAE00F70503 /* DTSethKitUITests.m */,
+				5D66E7CC2140FBAE00F70503 /* Info.plist */,
 			);
-			path = Learn;
-			sourceTree = "<group>";
-		};
-		5D3FBED81E8109F400350CF2 /* chainsytax */ = {
-			isa = PBXGroup;
-			children = (
-				5D3FBED41E81090B00350CF2 /* ChainSyntaxSample.h */,
-				5D3FBED51E81090B00350CF2 /* ChainSyntaxSample.m */,
-			);
-			path = chainsytax;
+			path = DTSethKitUITests;
 			sourceTree = "<group>";
 		};
 		5D6E0FCF1E63D2A800D506A7 = {
 			isa = PBXGroup;
 			children = (
 				5D6E0FDA1E63D2A800D506A7 /* DTSethKit */,
+				5D66E7BB2140FB9A00F70503 /* DTSethKitTests */,
+				5D66E7C92140FBAE00F70503 /* DTSethKitUITests */,
 				5D6E0FD91E63D2A800D506A7 /* Products */,
 				07321F5D7E96D74CAF552193 /* Pods */,
 				2FF2DD006873FCB146EBF917 /* Frameworks */,
@@ -153,6 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				5D6E0FD81E63D2A800D506A7 /* DTSethKit.app */,
+				5D66E7BA2140FB9A00F70503 /* DTSethKitTests.xctest */,
+				5D66E7C82140FBAE00F70503 /* DTSethKitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,11 +196,9 @@
 		5D6E0FDA1E63D2A800D506A7 /* DTSethKit */ = {
 			isa = PBXGroup;
 			children = (
-				5D6E1B961E6E5B4E00D506A7 /* AppUtil */,
-				5D3FBECD1E7FBE9000350CF2 /* Category */,
-				5D6E1B971E6E5B5E00D506A7 /* AOP */,
-				5D3FBED01E80FEEA00350CF2 /* Learn */,
-				5DDC68AB1FDFD555006B4825 /* FastDevelopment */,
+				5DD473AE2147A1CC0007B6C2 /* 知识点 */,
+				5DD473AF2147A1D60007B6C2 /* 研究 */,
+				5DD473B02147A1F30007B6C2 /* 快速实用模块 */,
 				5D6E0FDE1E63D2A800D506A7 /* AppDelegate.h */,
 				5D6E0FDF1E63D2A800D506A7 /* AppDelegate.m */,
 				5D6E0FE11E63D2A800D506A7 /* ViewController.h */,
@@ -187,71 +221,155 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5D6E1B961E6E5B4E00D506A7 /* AppUtil */ = {
+		5D74E0202153707E00F3656E /* AppUtil */ = {
 			isa = PBXGroup;
 			children = (
-				5D3FBED91E810BE900350CF2 /* Macros.h */,
+				5D74E0212153707E00F3656E /* Macros.h */,
 			);
 			path = AppUtil;
 			sourceTree = "<group>";
 		};
-		5D6E1B971E6E5B5E00D506A7 /* AOP */ = {
+		5D74E0222153707E00F3656E /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				5DE0774C1EC2E1B700B9BEEA /* MyPlayground.playground */,
-				5DE07EC61ECBE4F400B9BEEA /* LearnRuntime.h */,
-				5DE07ED41ECDA3DA00B9BEEA /* SethMethodManager.h */,
-				5DE07ED51ECDA3DA00B9BEEA /* SethMethodManager.m */,
 			);
-			path = AOP;
+			path = Category;
 			sourceTree = "<group>";
 		};
-		5D6F7B91212BBFEA00AD4BE9 /* AutoPool */ = {
+		5D74E0232153707E00F3656E /* FastDevelopment */ = {
 			isa = PBXGroup;
 			children = (
-				5D6F7B98212C105F00AD4BE9 /* SethAutopool.h */,
-				5D6F7B99212C105F00AD4BE9 /* SethAutopool.m */,
-			);
-			path = AutoPool;
-			sourceTree = "<group>";
-		};
-		5DD7BDC91FE104D2006C86B3 /* OC */ = {
-			isa = PBXGroup;
-			children = (
-				5DD7BDCA1FE1050A006C86B3 /* tableView */,
-			);
-			path = OC;
-			sourceTree = "<group>";
-		};
-		5DD7BDCA1FE1050A006C86B3 /* tableView */ = {
-			isa = PBXGroup;
-			children = (
-				5DD7BDCB1FE10534006C86B3 /* ExampleTableViewController.h */,
-				5DD7BDCC1FE10534006C86B3 /* ExampleTableViewController.m */,
-			);
-			path = tableView;
-			sourceTree = "<group>";
-		};
-		5DDC68AB1FDFD555006B4825 /* FastDevelopment */ = {
-			isa = PBXGroup;
-			children = (
-				5DD7BDC91FE104D2006C86B3 /* OC */,
+				5D74E0242153707E00F3656E /* OC */,
 			);
 			path = FastDevelopment;
 			sourceTree = "<group>";
 		};
-		5DE07EE61ED2E6CE00B9BEEA /* GCD */ = {
+		5D74E0242153707E00F3656E /* OC */ = {
 			isa = PBXGroup;
 			children = (
-				5DE07EE71ED2E6E600B9BEEA /* DispatchGCD.h */,
-				5DE07EE81ED2E6E600B9BEEA /* DispatchGCD.m */,
+				5D74E0252153707E00F3656E /* tableView */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		5D74E0252153707E00F3656E /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				5D74E0262153707E00F3656E /* ExampleTableViewController.m */,
+				5D74E0272153707E00F3656E /* ExampleTableViewController.h */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
+		5D74E0292153708C00F3656E /* AOP */ = {
+			isa = PBXGroup;
+			children = (
+				5D74E02A2153708C00F3656E /* LearnRuntime.h */,
+				5D74E02B2153708C00F3656E /* F4SocketBase.h */,
+				5D74E02C2153708C00F3656E /* SethMethodManager.m */,
+				5D74E02D2153708C00F3656E /* MyPlayground.playground */,
+				5D74E02E2153708C00F3656E /* SethMethodManager.h */,
+				5D74E02F2153708C00F3656E /* F4SocketBase.m */,
+			);
+			path = AOP;
+			sourceTree = "<group>";
+		};
+		5D74E0332153709900F3656E /* chainsytax */ = {
+			isa = PBXGroup;
+			children = (
+				5D74E0342153709900F3656E /* ChainSyntaxSample.m */,
+				5D74E0352153709900F3656E /* ChainSyntaxSample.h */,
+			);
+			path = chainsytax;
+			sourceTree = "<group>";
+		};
+		5D74E0362153709900F3656E /* AutoPool */ = {
+			isa = PBXGroup;
+			children = (
+				5D74E0372153709900F3656E /* SethAutopool.m */,
+				5D74E0382153709900F3656E /* SethAutopool.h */,
+			);
+			path = AutoPool;
+			sourceTree = "<group>";
+		};
+		5D74E0392153709900F3656E /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				5D74E03A2153709900F3656E /* DispatchGCD.h */,
+				5D74E03B2153709900F3656E /* DispatchGCD.m */,
 			);
 			path = GCD;
+			sourceTree = "<group>";
+		};
+		5DD473AE2147A1CC0007B6C2 /* 知识点 */ = {
+			isa = PBXGroup;
+			children = (
+				5D74E0362153709900F3656E /* AutoPool */,
+				5D74E0332153709900F3656E /* chainsytax */,
+				5D74E0392153709900F3656E /* GCD */,
+				5D74E03C2153709900F3656E /* Learn.h */,
+				5D74E0322153709900F3656E /* Swift.playground */,
+			);
+			path = "知识点";
+			sourceTree = "<group>";
+		};
+		5DD473AF2147A1D60007B6C2 /* 研究 */ = {
+			isa = PBXGroup;
+			children = (
+				5D74E0292153708C00F3656E /* AOP */,
+			);
+			path = "研究";
+			sourceTree = "<group>";
+		};
+		5DD473B02147A1F30007B6C2 /* 快速实用模块 */ = {
+			isa = PBXGroup;
+			children = (
+				5D74E0202153707E00F3656E /* AppUtil */,
+				5D74E0222153707E00F3656E /* Category */,
+				5D74E0232153707E00F3656E /* FastDevelopment */,
+			);
+			path = "快速实用模块";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5D66E7B92140FB9A00F70503 /* DTSethKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D66E7C12140FB9A00F70503 /* Build configuration list for PBXNativeTarget "DTSethKitTests" */;
+			buildPhases = (
+				5D66E7B62140FB9A00F70503 /* Sources */,
+				5D66E7B72140FB9A00F70503 /* Frameworks */,
+				5D66E7B82140FB9A00F70503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D66E7C02140FB9A00F70503 /* PBXTargetDependency */,
+			);
+			name = DTSethKitTests;
+			productName = DTSethKitTests;
+			productReference = 5D66E7BA2140FB9A00F70503 /* DTSethKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D66E7C72140FBAE00F70503 /* DTSethKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D66E7CF2140FBAE00F70503 /* Build configuration list for PBXNativeTarget "DTSethKitUITests" */;
+			buildPhases = (
+				5D66E7C42140FBAE00F70503 /* Sources */,
+				5D66E7C52140FBAE00F70503 /* Frameworks */,
+				5D66E7C62140FBAE00F70503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D66E7CE2140FBAE00F70503 /* PBXTargetDependency */,
+			);
+			name = DTSethKitUITests;
+			productName = DTSethKitUITests;
+			productReference = 5D66E7C82140FBAE00F70503 /* DTSethKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		5D6E0FD71E63D2A800D506A7 /* DTSethKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D6E0FEF1E63D2A800D506A7 /* Build configuration list for PBXNativeTarget "DTSethKit" */;
@@ -282,6 +400,18 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = detu;
 				TargetAttributes = {
+					5D66E7B92140FB9A00F70503 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 2T4W7AYHBZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D6E0FD71E63D2A800D506A7;
+					};
+					5D66E7C72140FBAE00F70503 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 2T4W7AYHBZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D6E0FD71E63D2A800D506A7;
+					};
 					5D6E0FD71E63D2A800D506A7 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 2T4W7AYHBZ;
@@ -303,11 +433,27 @@
 			projectRoot = "";
 			targets = (
 				5D6E0FD71E63D2A800D506A7 /* DTSethKit */,
+				5D66E7B92140FB9A00F70503 /* DTSethKitTests */,
+				5D66E7C72140FBAE00F70503 /* DTSethKitUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5D66E7B82140FB9A00F70503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D66E7C62140FBAE00F70503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D6E0FD61E63D2A800D506A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,22 +515,52 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5D66E7B62140FB9A00F70503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D66E7BD2140FB9A00F70503 /* DTSethKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D66E7C42140FBAE00F70503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D66E7CB2140FBAE00F70503 /* DTSethKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D6E0FD41E63D2A800D506A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D6F7B9A212C105F00AD4BE9 /* SethAutopool.m in Sources */,
-				5D3FBED61E81090B00350CF2 /* ChainSyntaxSample.m in Sources */,
-				5DD7BDCD1FE10534006C86B3 /* ExampleTableViewController.m in Sources */,
+				5D74E03E2153709900F3656E /* SethAutopool.m in Sources */,
 				5D6E0FE31E63D2A800D506A7 /* ViewController.m in Sources */,
-				5DE07EE91ED2E6E700B9BEEA /* DispatchGCD.m in Sources */,
 				5D6E0FE01E63D2A800D506A7 /* AppDelegate.m in Sources */,
-				5DE07ED61ECDA3DA00B9BEEA /* SethMethodManager.m in Sources */,
+				5D74E0282153707F00F3656E /* ExampleTableViewController.m in Sources */,
+				5D74E0302153708C00F3656E /* SethMethodManager.m in Sources */,
+				5D74E03F2153709900F3656E /* DispatchGCD.m in Sources */,
 				5D6E0FDD1E63D2A800D506A7 /* main.m in Sources */,
+				5D74E0312153708D00F3656E /* F4SocketBase.m in Sources */,
+				5D74E03D2153709900F3656E /* ChainSyntaxSample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D66E7C02140FB9A00F70503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D6E0FD71E63D2A800D506A7 /* DTSethKit */;
+			targetProxy = 5D66E7BF2140FB9A00F70503 /* PBXContainerItemProxy */;
+		};
+		5D66E7CE2140FBAE00F70503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D6E0FD71E63D2A800D506A7 /* DTSethKit */;
+			targetProxy = 5D66E7CD2140FBAE00F70503 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5D6E0FE41E63D2A800D506A7 /* Main.storyboard */ = {
@@ -406,6 +582,116 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5D66E7C22140FB9A00F70503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T4W7AYHBZ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DTSethKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detu.DTSethKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTSethKit.app/DTSethKit";
+			};
+			name = Debug;
+		};
+		5D66E7C32140FB9A00F70503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T4W7AYHBZ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DTSethKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detu.DTSethKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTSethKit.app/DTSethKit";
+			};
+			name = Release;
+		};
+		5D66E7D02140FBAE00F70503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T4W7AYHBZ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DTSethKitUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detu.DTSethKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DTSethKit;
+			};
+			name = Debug;
+		};
+		5D66E7D12140FBAE00F70503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T4W7AYHBZ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DTSethKitUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detu.DTSethKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DTSethKit;
+			};
+			name = Release;
+		};
 		5D6E0FED1E63D2A800D506A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -532,6 +818,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5D66E7C12140FB9A00F70503 /* Build configuration list for PBXNativeTarget "DTSethKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D66E7C22140FB9A00F70503 /* Debug */,
+				5D66E7C32140FB9A00F70503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D66E7CF2140FBAE00F70503 /* Build configuration list for PBXNativeTarget "DTSethKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D66E7D02140FBAE00F70503 /* Debug */,
+				5D66E7D12140FBAE00F70503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5D6E0FD31E63D2A800D506A7 /* Build configuration list for PBXProject "DTSethKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
