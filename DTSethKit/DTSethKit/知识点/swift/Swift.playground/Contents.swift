@@ -2,6 +2,7 @@
 
 import UIKit
 
+//数据定义
 var str = "Hello, playground"
 
 let students = ["Nora", "Fern", "Ryan", "Rainer"]
@@ -12,7 +13,8 @@ if students.contains(nameToCheck) {
 } else {
     print("No record of \(nameToCheck).")
 }
-// Prints "Ryan is signed up!"
 
+
+// 类的定义
 
 

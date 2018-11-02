@@ -26,17 +26,16 @@
 
     
      //TODO: Chain Syntax Sample
-     ChainSyntaxSample *  sample = [ChainSyntaxSample new];
-     DeveloperMode(
-     NSLog(@"测试模模式才会打开");
-     NSLog(@"");
-     NSLog(@"");
-     NSLog(@"");
-     NSLog(@"");
-     NSLog(@"");
-     NSLog(@"");
-     
-     );
+    ChainSyntaxSample *  sample = [ChainSyntaxSample new];
+    DeveloperMode(
+                  NSLog(@"测试模模式才会打开");
+                  NSLog(@"");
+                  NSLog(@"");
+                  NSLog(@"");
+                  NSLog(@"");
+                  NSLog(@"");
+                  NSLog(@"");
+                  );
      [sample test];
 //     */
     
@@ -52,9 +51,9 @@
     
     
     //TODO: GCD
-//    [[SethMethodManager shareInstance] hookClass:[UIViewController class] method:@selector(viewWillAppear:) withBlock:^{
-//        NSLog(@"viewController will appear ...");
-//    }];
+    [[SethMethodManager shareInstance] hookClass:[UIViewController class] method:@selector(viewWillAppear:) withBlock:^{
+        NSLog(@"viewController will appear ...");
+    }];
     
 //    [self aspect_hookSelector:@selector(viewWillAppear:) withOptions:AspectPositionAfter usingBlock:^{
 //        NSLog(@"viewController will appear ...");
@@ -63,7 +62,7 @@
     
 }
 
-- (void)measureTest {
+- (void) measureTest {
     
     NSMutableArray * mut = [NSMutableArray array];
     for (int i = 0; i < 99 ; i ++) {

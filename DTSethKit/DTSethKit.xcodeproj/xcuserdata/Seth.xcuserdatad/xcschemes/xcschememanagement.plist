@@ -7,7 +7,7 @@
 		<key>DTSethKit-New.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>3</integer>
 		</dict>
 		<key>DTSethKit.xcscheme</key>
 		<dict>
@@ -29,6 +29,11 @@
 			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>SethAR.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

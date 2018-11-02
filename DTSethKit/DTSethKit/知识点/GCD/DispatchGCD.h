@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 typedef NS_OPTIONS(NSUInteger, TimerType) {
     DTSethTimerGCD      = 1 ,
     DTSethTimerCAD      = 2 ,
