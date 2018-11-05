@@ -14,7 +14,21 @@ if students.contains(nameToCheck) {
     print("No record of \(nameToCheck).")
 }
 
+let y = Int8(exactly: 1_10)
+print(y as Any)
 
 // 类的定义
-
+class UIPracticeViewController: UIViewController {
+    var constString:NSString! = "abc"
+    var constString1 = "abc"
+    var constarrs = ["abc"]
+    
+    var firstView:UIView!{
+        didSet{
+            NSLog("已经改变")
+        }
+    }
+    
+    print("\(constString)")
+}
 

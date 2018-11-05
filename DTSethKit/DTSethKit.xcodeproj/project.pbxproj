@@ -64,6 +64,8 @@
 		5D591F3E218AE3AA00A48B50 /* DTSethKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DTSethKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		5D591F3F218AE3AB00A48B50 /* UIPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPracticeViewController.swift; sourceTree = "<group>"; };
 		5D591F41218C255A00A48B50 /* netProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = netProtocol.h; path = "DTSethKit/知识点/netProtocol.h"; sourceTree = SOURCE_ROOT; };
+		5D6464CD218FEFC70024EE0C /* CompilingBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompilingBase.h; sourceTree = "<group>"; };
+		5D6464CE219045DA0024EE0C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5D66E7BA2140FB9A00F70503 /* DTSethKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTSethKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D66E7BC2140FB9A00F70503 /* DTSethKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSethKitTests.m; sourceTree = "<group>"; };
 		5D66E7BE2140FB9A00F70503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				5D591F3D218AE37C00A48B50 /* practice */,
 				5D74E03C2153709900F3656E /* Learn.h */,
 				5D74E0322153709900F3656E /* Swift.playground */,
+				5D6464CE219045DA0024EE0C /* MyPlayground.playground */,
 			);
 			path = swift;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			isa = PBXGroup;
 			children = (
 				5D591F41218C255A00A48B50 /* netProtocol.h */,
+				5D6464CD218FEFC70024EE0C /* CompilingBase.h */,
 				5D74E0362153709900F3656E /* AutoPool */,
 				5D74E0332153709900F3656E /* chainsytax */,
 				5D74E0392153709900F3656E /* GCD */,
